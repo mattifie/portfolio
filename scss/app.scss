@@ -1,5 +1,12 @@
 @import "settings";
 @import "foundation";
+@import "overrides";
+@import "compass/css3/font-face";
+@import "foundation/components/thumbs";
+
+
+@include font-face("bebasregular", font-files('bebas___-webfont-webfont.woff', 'bebas___-webfont-webfont.ttf', 'bebas___-webfont-webfont.svg'), 'bebas___-webfont-webfont.eot');
+
 
 // Or selectively include components
 // @import
