@@ -175,6 +175,7 @@ ul#home_nav
 
   #footer {
   border-top: 3px solid $primary-accent;
+  padding-top: 20px;
   }
   
   #footer h5 {
@@ -197,12 +198,18 @@ ul#home_nav
   text-align: center;
 }
 
+/*Marvelmade Case Study*/
+
 .top-bar {
   background-color: $primary-accent;
 
   ul li {
   color:$text-color;
   }
+}
+
+ul.title-area {
+  background-color: $primary-accent;
 }
 
 .top-bar ul li a {
@@ -213,7 +220,7 @@ ul.right li a {
   color:$text-color;
 
       &:hover {
-      color: $primary-color !important;
+      color: #fff !important;
       }
 }
 
@@ -227,20 +234,24 @@ li.name h3 a {
   background-color: $primary-accent !important;
 }
 
-.project {
-  margin-left: 10px;
-  padding-top: 30px;
+#project {
+  text-align: center;
 
   @include desktop {
-  margin-left: 70px;
+  margin-top: 80px;
+  }
+
+  @include tablet {
+  margin-top: 40px;
+  }
 
   @include mobile {
   text-align: center;
-  }
+  margin-top: 30px;
   }
 }
 
-.project span {
+#project span {
   font-family: $main-typeface;
   letter-spacing: 1px;
 }
@@ -249,6 +260,7 @@ li.name h3 a {
   display: block;
   margin: auto;
   padding-top: 20px;
+  padding-bottom:20px;
 }
 
 .portfolio_text {
@@ -282,6 +294,19 @@ li.name h3 a {
   text-align: left;
 }
 
+#user_research img {
+  margin-bottom: 50px;
+}
+
+#user_research a {
+  color:$text-color;
+  font-size: 12px;
+
+      &:hover {
+      color: $primary-color !important;
+      }
+}
+
 .professional {
    margin-left: 100px;
 }
@@ -295,5 +320,77 @@ li.name h3 a {
   }
 }
 
+#branding span {
+  font-weight: 700;
+  font-family:$main-typeface;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+#branding a {
+  color:$text-color;
+  font-size: 12px;
+
+      &:hover {
+      color: $primary-color !important;
+      }
+}
+
+#branding img {
+  margin-bottom: 50px;
+}
+
+#final {
+  margin-bottom: 80px;
+}
+
+#sketch {
+  margin-top: 15px;
+}
+
+#style {
+  margin-top: -15px;
+}
+
+#foot_nav a {
+  color:$text-color;
+  font-size: 12px;
+
+      &:hover {
+      color: $primary-color !important;
+      }
+}
+
+#home {
+  text-align: center;
+}
+
+#next {
+  text-align: right;
+}
+
+ul#foot_nav 
+  {
+  list-style-type: none;
+  text-align: center;
+
+  li {
+  display: inline-block;
+  padding-right: 10px;
+
+  @include mobile {
+  font-size: 12px;
+  }
+
+    a {
+        color: $text-color;
+
+          &:hover {
+          color: $primary-color;
+          }
+  }
+}
+}
 
 
