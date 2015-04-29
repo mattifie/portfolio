@@ -228,7 +228,7 @@ li.name h3 a {
   color:$text-color !important;
 }
 
-/* Marvelmade */
+/* Top Bar */
 
 .contain-to-grid {
   background-color: $primary-accent !important;
@@ -341,7 +341,7 @@ li.name h3 a {
   margin-bottom: 50px;
 }
 
-#final {
+.final {
   margin-bottom: 80px;
 }
 
@@ -393,4 +393,43 @@ ul#foot_nav
 }
 }
 
+/* NomScout */
 
+#project_2 {
+  text-align: center;
+
+  @include desktop {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+/* these media queries not registering */
+
+  @include tablet {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+
+  @include mobile {
+  text-align: center;
+  margin-top: 30px;
+  }
+}
+}
+}
+
+#project_2 span {
+  font-family: $main-typeface;
+  letter-spacing: 1px;
+}
+
+
+#nomscout img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom:50px;
+}
+
+#jott {
+  margin-top: 20px;
+}
