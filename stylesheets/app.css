@@ -9627,6 +9627,31 @@ ul#foot_nav li a:hover {
   margin-top: 20px;
 }
 
+/* line 437, ../scss/_overrides.scss */
+#splash {
+  margin-top: 20px;
+}
+
+/* line 441, ../scss/_overrides.scss */
+#ss {
+  margin-top: 50px;
+}
+
+/* line 445, ../scss/_overrides.scss */
+#block {
+  margin-top: 20px;
+}
+
+/* line 449, ../scss/_overrides.scss */
+#vic {
+  margin-top: 20px;
+}
+
+/* line 453, ../scss/_overrides.scss */
+#ss_final {
+  margin-bottom: 80px;
+}
+
 @font-face {
   font-family: "bebasregular";
   src: url('/fonts/bebas___-webfont-webfont.eot?1430157430');
