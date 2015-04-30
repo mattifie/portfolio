@@ -287,9 +287,9 @@ li.name h3 a {
 }
 
 #user_research span {
-  font-weight: 700;
+  font-weight: 500;
   font-family:$main-typeface;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-align: left;
 }
@@ -300,7 +300,8 @@ li.name h3 a {
 
 #user_research a {
   color:$text-color;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
 
       &:hover {
       color: $primary-color !important;
@@ -453,5 +454,13 @@ ul#foot_nav
 #ss_final {
   margin-bottom: 80px;
 }
+
+#dispatch {
+  font-weight: 500;
+  font-family:$main-typeface;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  }
 
 

@@ -9458,9 +9458,9 @@ li.name h3 a {
 
 /* line 289, ../scss/_overrides.scss */
 #user_research span {
-  font-weight: 700;
+  font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-align: left;
 }
@@ -9473,29 +9473,30 @@ li.name h3 a {
 /* line 301, ../scss/_overrides.scss */
 #user_research a {
   color: #262626;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
 }
-/* line 305, ../scss/_overrides.scss */
+/* line 306, ../scss/_overrides.scss */
 #user_research a:hover {
   color: #00c7ba !important;
 }
 
-/* line 310, ../scss/_overrides.scss */
+/* line 311, ../scss/_overrides.scss */
 .professional {
   margin-left: 100px;
 }
 
-/* line 314, ../scss/_overrides.scss */
+/* line 315, ../scss/_overrides.scss */
 .low_fidelity {
   padding-bottom: 50px;
   padding-top: 20px;
 }
-/* line 318, ../scss/_overrides.scss */
+/* line 319, ../scss/_overrides.scss */
 .low_fidelity img {
   margin-top: 20px;
 }
 
-/* line 323, ../scss/_overrides.scss */
+/* line 324, ../scss/_overrides.scss */
 #branding span {
   font-weight: 700;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9504,88 +9505,88 @@ li.name h3 a {
   text-align: left;
 }
 
-/* line 331, ../scss/_overrides.scss */
+/* line 332, ../scss/_overrides.scss */
 #branding a {
   color: #262626;
   font-size: 12px;
 }
-/* line 335, ../scss/_overrides.scss */
+/* line 336, ../scss/_overrides.scss */
 #branding a:hover {
   color: #00c7ba !important;
 }
 
-/* line 340, ../scss/_overrides.scss */
+/* line 341, ../scss/_overrides.scss */
 #branding img {
   margin-bottom: 50px;
 }
 
-/* line 344, ../scss/_overrides.scss */
+/* line 345, ../scss/_overrides.scss */
 .final {
   margin-bottom: 80px;
 }
 
-/* line 348, ../scss/_overrides.scss */
+/* line 349, ../scss/_overrides.scss */
 #sketch {
   margin-top: 15px;
 }
 
-/* line 352, ../scss/_overrides.scss */
+/* line 353, ../scss/_overrides.scss */
 #style {
   margin-top: -15px;
 }
 
-/* line 356, ../scss/_overrides.scss */
+/* line 357, ../scss/_overrides.scss */
 #foot_nav a {
   color: #262626;
   font-size: 12px;
 }
-/* line 360, ../scss/_overrides.scss */
+/* line 361, ../scss/_overrides.scss */
 #foot_nav a:hover {
   color: #00c7ba !important;
 }
 
-/* line 365, ../scss/_overrides.scss */
+/* line 366, ../scss/_overrides.scss */
 #home {
   text-align: center;
 }
 
-/* line 369, ../scss/_overrides.scss */
+/* line 370, ../scss/_overrides.scss */
 #next {
   text-align: right;
 }
 
-/* line 373, ../scss/_overrides.scss */
+/* line 374, ../scss/_overrides.scss */
 ul#foot_nav {
   list-style-type: none;
   text-align: center;
 }
-/* line 378, ../scss/_overrides.scss */
+/* line 379, ../scss/_overrides.scss */
 ul#foot_nav li {
   display: inline-block;
   padding-right: 10px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 378, ../scss/_overrides.scss */
+  /* line 379, ../scss/_overrides.scss */
   ul#foot_nav li {
     font-size: 12px;
   }
 }
-/* line 386, ../scss/_overrides.scss */
+/* line 387, ../scss/_overrides.scss */
 ul#foot_nav li a {
   color: #262626;
 }
-/* line 389, ../scss/_overrides.scss */
+/* line 390, ../scss/_overrides.scss */
 ul#foot_nav li a:hover {
   color: #00c7ba;
 }
 
 /* NomScout */
-/* line 398, ../scss/_overrides.scss */
+/* line 399, ../scss/_overrides.scss */
 #project_2 {
   text-align: center;
 }
 @media (min-width: 1024px) {
-  /* line 398, ../scss/_overrides.scss */
+  /* line 399, ../scss/_overrides.scss */
   #project_2 {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -9593,7 +9594,7 @@ ul#foot_nav li a:hover {
   }
 }
 @media (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) {
-  /* line 398, ../scss/_overrides.scss */
+  /* line 399, ../scss/_overrides.scss */
   #project_2 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -9601,20 +9602,20 @@ ul#foot_nav li a:hover {
 }
 
 @media (min-width: 1024px) and (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 398, ../scss/_overrides.scss */
+  /* line 399, ../scss/_overrides.scss */
   #project_2 {
     text-align: center;
     margin-top: 30px;
   }
 }
 
-/* line 420, ../scss/_overrides.scss */
+/* line 421, ../scss/_overrides.scss */
 #project_2 span {
   font-family: "proxima-nova", "lato", sans-serif;
   letter-spacing: 1px;
 }
 
-/* line 426, ../scss/_overrides.scss */
+/* line 427, ../scss/_overrides.scss */
 #nomscout img {
   display: block;
   margin: auto;
@@ -9622,34 +9623,43 @@ ul#foot_nav li a:hover {
   margin-bottom: 50px;
 }
 
-/* line 433, ../scss/_overrides.scss */
+/* line 434, ../scss/_overrides.scss */
 #jott {
   margin-top: 20px;
 }
 
-/* line 437, ../scss/_overrides.scss */
+/* line 438, ../scss/_overrides.scss */
 #splash {
   margin-top: 20px;
 }
 
-/* line 441, ../scss/_overrides.scss */
+/* line 442, ../scss/_overrides.scss */
 #ss {
   margin-top: 50px;
 }
 
-/* line 445, ../scss/_overrides.scss */
+/* line 446, ../scss/_overrides.scss */
 #block {
   margin-top: 20px;
 }
 
-/* line 449, ../scss/_overrides.scss */
+/* line 450, ../scss/_overrides.scss */
 #vic {
   margin-top: 20px;
 }
 
-/* line 453, ../scss/_overrides.scss */
+/* line 454, ../scss/_overrides.scss */
 #ss_final {
   margin-bottom: 80px;
+}
+
+/* line 458, ../scss/_overrides.scss */
+#dispatch {
+  font-weight: 500;
+  font-family: "proxima-nova", "lato", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: left;
 }
 
 @font-face {
