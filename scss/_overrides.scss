@@ -300,7 +300,7 @@ li.name h3 a {
 #user_research span {
   font-weight: 500;
   font-family:$main-typeface;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 2px;
   text-align: left;
 }
@@ -310,9 +310,29 @@ li.name h3 a {
 }
 
 #user_research a {
-  color:$text-color;
+  color:$secondary-accent;
   font-size: 14px;
-  font-weight: 700;
+
+      &:hover {
+      color: $primary-color !important;
+      }
+}
+
+#branding span {
+  font-weight: 500;
+  font-family:$main-typeface;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+#branding img {
+  margin-bottom: 50px;
+}
+
+#branding a {
+  color:$secondary-accent;
+  font-size: 14px;
 
       &:hover {
       color: $primary-color !important;
@@ -332,37 +352,34 @@ li.name h3 a {
   }
 }
 
-#branding span {
-  font-weight: 700;
-  font-family:$main-typeface;
-  font-size: 18px;
-  letter-spacing: 2px;
-  text-align: left;
-}
-
-#branding a {
-  color:$text-color;
-  font-size: 12px;
-
-      &:hover {
-      color: $primary-color !important;
-      }
-}
-
-#branding img {
-  margin-bottom: 50px;
-}
-
 .final {
   margin-bottom: 80px;
 }
 
 #sketch {
   margin-top: 15px;
+  margin-left: -25px;
+
+  @include mobile {
+  margin-left: -15px;
+  }
 }
 
 #style {
   margin-top: -15px;
+  margin-left: 20px;
+
+  @include mobile {
+  margin-left: 8px;
+  }
+}
+
+#mockup {
+  margin-left: 40px;
+
+  @include mobile {
+  margin-left: 20px;
+  }
 }
 
 #foot_nav a {
@@ -411,19 +428,17 @@ ul#foot_nav
   text-align: center;
 
   @include desktop {
-  margin-top: 80px;
-  margin-bottom: 80px;
-
-/* these media queries not registering */
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
 
   @include tablet {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
 
 
   @include mobile {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 30px !important;
   }
 }
 }
@@ -435,12 +450,23 @@ ul#foot_nav
 }
 
 
+#intro {
+  margin-top: 15px !important;
+}
+
 #nomscout img {
   display: block;
   margin: auto;
   margin-top: 20px;
   margin-bottom:50px;
 }
+
+
+#guide {
+  margin-top: 13px !important;
+}
+
+/* Jott.ly */
 
 #jott {
   margin-top: 20px;
