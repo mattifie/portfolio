@@ -79,8 +79,9 @@ h4 {
 
 h3 {
   font-family:$heading-typeface;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 2px;
+  margin-top: 60px;
 }
 
 h5 {
@@ -96,11 +97,6 @@ h6 {
 
 #nav h3 {
   letter-spacing: 2px;
-}
-
-#logo {
-  padding-top: 20px;
-  padding-bottom: 15px;
 }
 
 #tagline {
@@ -138,40 +134,55 @@ ul#home_nav
 
 /*Work Display */
 
+
+ul.large-block-grid-3.medium-block-grid-2 li {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+
+span.text-content {
+  min-height: 220px;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 95%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+ul.large-block-grid-3.medium-block-grid-2 li:hover span.text-content {
+  opacity: 1;
+}
+
+ 
+span.text-content span {
+  font-size: 24px;
+  font-family:$heading-typeface;
+  font-weight: normal;
+  letter-spacing: 2px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
 #work {
   margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   width: 90%;
 }
 
-  li.one img {
-  padding-bottom: 30px;
-  margin: auto;
-
-  @include desktop {
-  padding-right: 15px;
-  margin: auto;
-
-  @include tablet {
-  padding-right: 15px;
-  }
-  }
-  }
-
-  li.two img {
-  padding-bottom: 30px;
-  margin: auto;
-
-  @include desktop {
-  padding-left: 15px;
-  margin:auto;
-
-  @include tablet {
-  padding-left: 15px;
-  }
-  }
-  }
 
   #footer {
   border-top: 3px solid $primary-accent;
