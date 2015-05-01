@@ -9668,32 +9668,51 @@ ul#foot_nav li a:hover {
 }
 
 /* line 479, ../scss/_overrides.scss */
+#phone {
+  margin-top: 15px !important;
+}
+
+/* Salvage Scheme */
+/* line 487, ../scss/_overrides.scss */
 #ss {
   margin-top: 50px;
 }
 
-/* line 483, ../scss/_overrides.scss */
+/* line 491, ../scss/_overrides.scss */
 #block {
   margin-top: 20px;
 }
 
-/* line 487, ../scss/_overrides.scss */
+/* line 495, ../scss/_overrides.scss */
 #vic {
   margin-top: 20px;
 }
 
-/* line 491, ../scss/_overrides.scss */
+/* line 499, ../scss/_overrides.scss */
 #ss_final {
   margin-bottom: 80px;
 }
 
-/* line 495, ../scss/_overrides.scss */
+/* line 503, ../scss/_overrides.scss */
 #dispatch {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
   text-align: left;
+}
+
+/* About */
+/* line 513, ../scss/_overrides.scss */
+#about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+/* line 519, ../scss/_overrides.scss */
+#me {
+  margin-top: 50px;
 }
 
 @font-face {
