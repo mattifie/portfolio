@@ -9407,78 +9407,89 @@ ul#social li {
   text-align: center;
 }
 
+/* line 253, ../scss/_overrides.scss */
+#index {
+  margin-top: 0px;
+}
+@media (min-width: 1024px) {
+  /* line 253, ../scss/_overrides.scss */
+  #index {
+    margin-top: 50px;
+  }
+}
+
 /*Marvelmade Case Study*/
-/* line 255, ../scss/_overrides.scss */
+/* line 263, ../scss/_overrides.scss */
 .top-bar {
   background-color: #ff5950;
 }
-/* line 258, ../scss/_overrides.scss */
+/* line 266, ../scss/_overrides.scss */
 .top-bar ul li {
   color: #262626;
 }
 
-/* line 263, ../scss/_overrides.scss */
+/* line 271, ../scss/_overrides.scss */
 ul.title-area {
   background-color: #ff5950;
 }
 
-/* line 267, ../scss/_overrides.scss */
+/* line 275, ../scss/_overrides.scss */
 .top-bar ul li a {
   background-color: #ff5950 !important;
 }
 
-/* line 271, ../scss/_overrides.scss */
+/* line 279, ../scss/_overrides.scss */
 ul.right li a {
   color: #262626;
 }
-/* line 274, ../scss/_overrides.scss */
+/* line 282, ../scss/_overrides.scss */
 ul.right li a:hover {
   color: #fff !important;
 }
 
-/* line 279, ../scss/_overrides.scss */
+/* line 287, ../scss/_overrides.scss */
 li.name h3 a {
   color: #262626 !important;
 }
 
 /* Top Bar */
-/* line 285, ../scss/_overrides.scss */
+/* line 293, ../scss/_overrides.scss */
 .contain-to-grid {
   background-color: #ff5950 !important;
 }
 
-/* line 289, ../scss/_overrides.scss */
+/* line 297, ../scss/_overrides.scss */
 #project {
   text-align: center;
 }
 @media (min-width: 1024px) {
-  /* line 289, ../scss/_overrides.scss */
+  /* line 297, ../scss/_overrides.scss */
   #project {
     margin-top: 80px;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 289, ../scss/_overrides.scss */
+  /* line 297, ../scss/_overrides.scss */
   #project {
     margin-top: 40px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 289, ../scss/_overrides.scss */
+  /* line 297, ../scss/_overrides.scss */
   #project {
     text-align: center;
     margin-top: 30px;
   }
 }
 
-/* line 307, ../scss/_overrides.scss */
+/* line 315, ../scss/_overrides.scss */
 #project span {
   font-family: "proxima-nova", "lato", sans-serif;
   letter-spacing: 1px;
 }
 
-/* line 312, ../scss/_overrides.scss */
+/* line 320, ../scss/_overrides.scss */
 #main img {
   display: block;
   margin: auto;
@@ -9486,7 +9497,7 @@ li.name h3 a {
   padding-bottom: 20px;
 }
 
-/* line 319, ../scss/_overrides.scss */
+/* line 327, ../scss/_overrides.scss */
 .portfolio_text {
   margin-left: 10px;
   padding-top: 20px;
@@ -9495,19 +9506,19 @@ li.name h3 a {
   float: left;
 }
 @media (min-width: 1024px) {
-  /* line 319, ../scss/_overrides.scss */
+  /* line 327, ../scss/_overrides.scss */
   .portfolio_text {
     margin-left: 70px;
   }
 }
 
-/* line 331, ../scss/_overrides.scss */
+/* line 339, ../scss/_overrides.scss */
 .persona {
   padding-bottom: 50px;
   padding-top: 20px;
 }
 
-/* line 336, ../scss/_overrides.scss */
+/* line 344, ../scss/_overrides.scss */
 #user_research span {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9516,22 +9527,22 @@ li.name h3 a {
   text-align: left;
 }
 
-/* line 344, ../scss/_overrides.scss */
+/* line 352, ../scss/_overrides.scss */
 #user_research img {
   margin-bottom: 50px;
 }
 
-/* line 348, ../scss/_overrides.scss */
+/* line 356, ../scss/_overrides.scss */
 #user_research a {
   color: #073057;
   font-size: 14px;
 }
-/* line 352, ../scss/_overrides.scss */
+/* line 360, ../scss/_overrides.scss */
 #user_research a:hover {
   color: #00c7ba !important;
 }
 
-/* line 357, ../scss/_overrides.scss */
+/* line 365, ../scss/_overrides.scss */
 #branding span {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9540,164 +9551,164 @@ li.name h3 a {
   text-align: left;
 }
 
-/* line 365, ../scss/_overrides.scss */
+/* line 373, ../scss/_overrides.scss */
 #branding img {
   margin-bottom: 50px;
 }
 
-/* line 369, ../scss/_overrides.scss */
+/* line 377, ../scss/_overrides.scss */
 #branding a {
   color: #073057;
   font-size: 14px;
 }
-/* line 373, ../scss/_overrides.scss */
+/* line 381, ../scss/_overrides.scss */
 #branding a:hover {
   color: #00c7ba !important;
 }
 
-/* line 378, ../scss/_overrides.scss */
+/* line 386, ../scss/_overrides.scss */
 .professional {
   margin-left: 100px;
 }
 
-/* line 382, ../scss/_overrides.scss */
+/* line 390, ../scss/_overrides.scss */
 .low_fidelity {
   padding-bottom: 50px;
   padding-top: 20px;
 }
-/* line 386, ../scss/_overrides.scss */
+/* line 394, ../scss/_overrides.scss */
 .low_fidelity img {
   margin-top: 20px;
 }
 
-/* line 391, ../scss/_overrides.scss */
+/* line 399, ../scss/_overrides.scss */
 .final {
   margin-bottom: 80px;
 }
 
-/* line 395, ../scss/_overrides.scss */
+/* line 403, ../scss/_overrides.scss */
 #sketch {
   margin-top: 15px;
   margin-left: -25px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 395, ../scss/_overrides.scss */
+  /* line 403, ../scss/_overrides.scss */
   #sketch {
     margin-left: -15px;
   }
 }
 
-/* line 404, ../scss/_overrides.scss */
+/* line 412, ../scss/_overrides.scss */
 #style {
   margin-top: -15px;
   margin-left: 20px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 404, ../scss/_overrides.scss */
+  /* line 412, ../scss/_overrides.scss */
   #style {
     margin-left: 8px;
   }
 }
 
-/* line 413, ../scss/_overrides.scss */
+/* line 421, ../scss/_overrides.scss */
 #mockup {
   margin-left: 40px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 413, ../scss/_overrides.scss */
+  /* line 421, ../scss/_overrides.scss */
   #mockup {
     margin-left: 20px;
   }
 }
 
-/* line 421, ../scss/_overrides.scss */
+/* line 429, ../scss/_overrides.scss */
 #foot_nav a {
   color: #262626;
   font-size: 12px;
 }
-/* line 425, ../scss/_overrides.scss */
+/* line 433, ../scss/_overrides.scss */
 #foot_nav a:hover {
   color: #00c7ba !important;
 }
 
-/* line 430, ../scss/_overrides.scss */
+/* line 438, ../scss/_overrides.scss */
 #home {
   text-align: center;
 }
 
-/* line 434, ../scss/_overrides.scss */
+/* line 442, ../scss/_overrides.scss */
 #next {
   text-align: right;
 }
 
-/* line 438, ../scss/_overrides.scss */
+/* line 446, ../scss/_overrides.scss */
 ul#foot_nav {
   list-style-type: none;
   text-align: center;
 }
-/* line 443, ../scss/_overrides.scss */
+/* line 451, ../scss/_overrides.scss */
 ul#foot_nav li {
   display: inline-block;
   padding-right: 10px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 443, ../scss/_overrides.scss */
+  /* line 451, ../scss/_overrides.scss */
   ul#foot_nav li {
     font-size: 12px;
   }
 }
-/* line 451, ../scss/_overrides.scss */
+/* line 459, ../scss/_overrides.scss */
 ul#foot_nav li a {
   color: #262626;
 }
-/* line 454, ../scss/_overrides.scss */
+/* line 462, ../scss/_overrides.scss */
 ul#foot_nav li a:hover {
   color: #00c7ba;
 }
 
 /* NomScout */
-/* line 463, ../scss/_overrides.scss */
+/* line 471, ../scss/_overrides.scss */
 #project_2 {
   text-align: center;
 }
 @media (min-width: 1024px) {
-  /* line 463, ../scss/_overrides.scss */
+  /* line 471, ../scss/_overrides.scss */
   #project_2 {
     margin-top: 80px !important;
     margin-bottom: 80px !important;
   }
 }
 
-/* line 472, ../scss/_overrides.scss */
+/* line 480, ../scss/_overrides.scss */
 .row#project_name {
   text-align: center;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 472, ../scss/_overrides.scss */
+  /* line 480, ../scss/_overrides.scss */
   .row#project_name {
     margin-top: 40px;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 472, ../scss/_overrides.scss */
+  /* line 480, ../scss/_overrides.scss */
   .row#project_name {
     margin-top: 30px !important;
   }
 }
 
-/* line 485, ../scss/_overrides.scss */
+/* line 493, ../scss/_overrides.scss */
 #project_2 span {
   font-family: "proxima-nova", "lato", sans-serif;
   letter-spacing: 1px;
 }
 
-/* line 491, ../scss/_overrides.scss */
+/* line 499, ../scss/_overrides.scss */
 #intro {
   margin-top: 15px !important;
 }
 
-/* line 495, ../scss/_overrides.scss */
+/* line 503, ../scss/_overrides.scss */
 #nomscout img {
   display: block;
   margin: auto;
@@ -9705,49 +9716,49 @@ ul#foot_nav li a:hover {
   margin-bottom: 50px;
 }
 
-/* line 503, ../scss/_overrides.scss */
+/* line 511, ../scss/_overrides.scss */
 #guide {
   margin-top: 13px !important;
 }
 
 /* Jott.ly */
-/* line 509, ../scss/_overrides.scss */
+/* line 517, ../scss/_overrides.scss */
 #jott {
   margin-top: 20px;
 }
 
-/* line 513, ../scss/_overrides.scss */
+/* line 521, ../scss/_overrides.scss */
 #splash {
   margin-top: 20px;
 }
 
-/* line 517, ../scss/_overrides.scss */
+/* line 525, ../scss/_overrides.scss */
 #phone {
   margin-top: 15px !important;
 }
 
 /* Salvage Scheme */
-/* line 525, ../scss/_overrides.scss */
+/* line 533, ../scss/_overrides.scss */
 #ss {
   margin-top: 50px;
 }
 
-/* line 529, ../scss/_overrides.scss */
+/* line 537, ../scss/_overrides.scss */
 #block {
   margin-top: 20px;
 }
 
-/* line 533, ../scss/_overrides.scss */
+/* line 541, ../scss/_overrides.scss */
 #vic {
   margin-top: 20px;
 }
 
-/* line 537, ../scss/_overrides.scss */
+/* line 545, ../scss/_overrides.scss */
 #ss_final {
   margin-bottom: 80px;
 }
 
-/* line 541, ../scss/_overrides.scss */
+/* line 549, ../scss/_overrides.scss */
 #dispatch {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9757,13 +9768,13 @@ ul#foot_nav li a:hover {
 }
 
 /* About */
-/* line 551, ../scss/_overrides.scss */
+/* line 559, ../scss/_overrides.scss */
 #about {
   margin-top: 80px;
   margin-bottom: 40px;
   text-align: center;
 }
-/* line 556, ../scss/_overrides.scss */
+/* line 564, ../scss/_overrides.scss */
 #about span {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9771,95 +9782,95 @@ ul#foot_nav li a:hover {
   text-align: left;
 }
 
-/* line 564, ../scss/_overrides.scss */
+/* line 572, ../scss/_overrides.scss */
 #me {
   margin-top: 20px;
 }
 @media (min-width: 1024px) {
-  /* line 564, ../scss/_overrides.scss */
+  /* line 572, ../scss/_overrides.scss */
   #me {
     margin-top: 50px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 564, ../scss/_overrides.scss */
+  /* line 572, ../scss/_overrides.scss */
   #me {
     margin-top: 40px;
   }
 }
 
-/* line 576, ../scss/_overrides.scss */
+/* line 584, ../scss/_overrides.scss */
 h6#copy {
   padding-top: 30px;
 }
 
-/* line 580, ../scss/_overrides.scss */
+/* line 588, ../scss/_overrides.scss */
 ul#social_about {
   list-style-type: none;
   margin-top: -35px;
   margin-left: -5px;
   text-align: center;
 }
-/* line 586, ../scss/_overrides.scss */
+/* line 594, ../scss/_overrides.scss */
 ul#social_about li {
   display: inline-block;
   padding-right: 2px;
 }
 
-/* line 592, ../scss/_overrides.scss */
+/* line 600, ../scss/_overrides.scss */
 #final_about {
   margin-bottom: 80px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 592, ../scss/_overrides.scss */
+  /* line 600, ../scss/_overrides.scss */
   #final_about {
     margin-bottom: 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 592, ../scss/_overrides.scss */
+  /* line 600, ../scss/_overrides.scss */
   #final_about {
     margin-bottom: 10px;
   }
 }
 
 /* Contact Page */
-/* line 606, ../scss/_overrides.scss */
+/* line 614, ../scss/_overrides.scss */
 textarea {
   height: 143px;
 }
 
-/* line 610, ../scss/_overrides.scss */
+/* line 618, ../scss/_overrides.scss */
 #field_short {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-/* line 615, ../scss/_overrides.scss */
+/* line 623, ../scss/_overrides.scss */
 #field_long {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 615, ../scss/_overrides.scss */
+  /* line 623, ../scss/_overrides.scss */
   #field_long {
     margin-top: -30px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 615, ../scss/_overrides.scss */
+  /* line 623, ../scss/_overrides.scss */
   #field_long {
     margin-top: -20px;
   }
 }
 
-/* line 628, ../scss/_overrides.scss */
+/* line 636, ../scss/_overrides.scss */
 button {
   margin-bottom: 50px;
   text-align: center;
 }
 
-/* line 633, ../scss/_overrides.scss */
+/* line 641, ../scss/_overrides.scss */
 button.button.small {
   background-color: #073057;
   border-radius: 5px;
@@ -9867,23 +9878,23 @@ button.button.small {
   margin-bottom: 50px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 633, ../scss/_overrides.scss */
+  /* line 641, ../scss/_overrides.scss */
   button.button.small {
     margin-left: -30px;
   }
 }
 
-/* line 644, ../scss/_overrides.scss */
+/* line 652, ../scss/_overrides.scss */
 input {
   margin-bottom: 30px;
 }
 
-/* line 648, ../scss/_overrides.scss */
+/* line 656, ../scss/_overrides.scss */
 #inquiry {
   background-color: #ff5950;
 }
 
-/* line 652, ../scss/_overrides.scss */
+/* line 660, ../scss/_overrides.scss */
 #talk {
   text-align: center;
   margin-top: 10px;

@@ -250,6 +250,14 @@ ul#social
   text-align: center;
 }
 
+#index {
+  margin-top: 0px;
+
+  @include desktop {
+  margin-top: 50px;
+  }
+}
+
 /*Marvelmade Case Study*/
 
 .top-bar {
