@@ -3,6 +3,7 @@
 @import "overrides";
 @import "compass/css3/font-face";
 @import "foundation/components/thumbs";
+@import "foundation/components/top-bar";
 
 
 @include font-face("bebasregular", font-files('bebas___-webfont-webfont.woff', 'bebas___-webfont-webfont.ttf', 'bebas___-webfont-webfont.svg'), 'bebas___-webfont-webfont.eot');
