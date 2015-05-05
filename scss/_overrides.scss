@@ -48,7 +48,7 @@ li {
 
 h1 {
   font-family:$heading-typeface;
-  font-size: 40px;
+  font-size: 46px;
   letter-spacing: 2px;
   color:$text-color;
 }
@@ -78,9 +78,6 @@ h4 {
 /* Index Header */
 
 h3 {
-  font-family:$heading-typeface;
-  font-size: 36px;
-  letter-spacing: 2px;
   margin-top: 60px;
 }
 
@@ -254,7 +251,7 @@ ul#social
   margin-top: 0px;
 
   @include desktop {
-  margin-top: 50px;
+  margin-top: 40px;
   }
 }
 
@@ -315,6 +312,7 @@ li.name h3 a {
 #project span {
   font-family: $main-typeface;
   letter-spacing: 1px;
+  font-size: 36px;
 }
 
 #main img {
@@ -365,7 +363,7 @@ li.name h3 a {
 #branding span {
   font-weight: 500;
   font-family:$main-typeface;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
   text-align: left;
 }
@@ -428,7 +426,7 @@ li.name h3 a {
 
 #foot_nav a {
   color:$text-color;
-  font-size: 12px;
+  font-size: 14px;
 
       &:hover {
       color: $primary-color !important;
@@ -475,6 +473,10 @@ ul#foot_nav
   margin-top: 80px !important;
   margin-bottom: 80px !important;
 }
+}
+
+#project_2 span {
+  font-size: 36px;
 }
 
 .row#project_name {
@@ -544,6 +546,15 @@ ul#foot_nav
 
 #ss_final {
   margin-bottom: 80px;
+}
+
+#ss_final a {
+  color:$secondary-accent;
+  font-size: 14px;
+
+      &:hover {
+      color: $primary-color !important;
+      }
 }
 
 #dispatch {
