@@ -9447,47 +9447,48 @@ ul.right li a:hover {
 /* line 284, ../scss/_overrides.scss */
 li.name h3 a {
   color: #262626 !important;
+  font-size: 22px;
 }
 
 /* Top Bar */
-/* line 290, ../scss/_overrides.scss */
+/* line 291, ../scss/_overrides.scss */
 .contain-to-grid {
   background-color: #ff5950 !important;
 }
 
-/* line 294, ../scss/_overrides.scss */
+/* line 295, ../scss/_overrides.scss */
 #project {
   text-align: center;
 }
 @media (min-width: 1024px) {
-  /* line 294, ../scss/_overrides.scss */
+  /* line 295, ../scss/_overrides.scss */
   #project {
     margin-top: 80px;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 294, ../scss/_overrides.scss */
+  /* line 295, ../scss/_overrides.scss */
   #project {
     margin-top: 40px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 294, ../scss/_overrides.scss */
+  /* line 295, ../scss/_overrides.scss */
   #project {
     text-align: center;
     margin-top: 30px;
   }
 }
 
-/* line 312, ../scss/_overrides.scss */
+/* line 313, ../scss/_overrides.scss */
 #project span {
   font-family: "proxima-nova", "lato", sans-serif;
   letter-spacing: 1px;
   font-size: 36px;
 }
 
-/* line 318, ../scss/_overrides.scss */
+/* line 319, ../scss/_overrides.scss */
 #main img {
   display: block;
   margin: auto;
@@ -9495,7 +9496,7 @@ li.name h3 a {
   padding-bottom: 20px;
 }
 
-/* line 325, ../scss/_overrides.scss */
+/* line 326, ../scss/_overrides.scss */
 .portfolio_text {
   margin-left: 10px;
   padding-top: 20px;
@@ -9504,19 +9505,19 @@ li.name h3 a {
   float: left;
 }
 @media (min-width: 1024px) {
-  /* line 325, ../scss/_overrides.scss */
+  /* line 326, ../scss/_overrides.scss */
   .portfolio_text {
     margin-left: 70px;
   }
 }
 
-/* line 337, ../scss/_overrides.scss */
+/* line 338, ../scss/_overrides.scss */
 .persona {
   padding-bottom: 50px;
   padding-top: 20px;
 }
 
-/* line 342, ../scss/_overrides.scss */
+/* line 343, ../scss/_overrides.scss */
 #user_research span {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9525,22 +9526,22 @@ li.name h3 a {
   text-align: left;
 }
 
-/* line 350, ../scss/_overrides.scss */
+/* line 351, ../scss/_overrides.scss */
 #user_research img {
   margin-bottom: 50px;
 }
 
-/* line 354, ../scss/_overrides.scss */
+/* line 355, ../scss/_overrides.scss */
 #user_research a {
   color: #073057;
   font-size: 14px;
 }
-/* line 358, ../scss/_overrides.scss */
+/* line 359, ../scss/_overrides.scss */
 #user_research a:hover {
   color: #00c7ba !important;
 }
 
-/* line 363, ../scss/_overrides.scss */
+/* line 364, ../scss/_overrides.scss */
 #branding span {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9549,169 +9550,169 @@ li.name h3 a {
   text-align: left;
 }
 
-/* line 371, ../scss/_overrides.scss */
+/* line 372, ../scss/_overrides.scss */
 #branding img {
   margin-bottom: 50px;
 }
 
-/* line 375, ../scss/_overrides.scss */
+/* line 376, ../scss/_overrides.scss */
 #branding a {
   color: #073057;
   font-size: 14px;
 }
-/* line 379, ../scss/_overrides.scss */
+/* line 380, ../scss/_overrides.scss */
 #branding a:hover {
   color: #00c7ba !important;
 }
 
-/* line 384, ../scss/_overrides.scss */
+/* line 385, ../scss/_overrides.scss */
 .professional {
   margin-left: 100px;
 }
 
-/* line 388, ../scss/_overrides.scss */
+/* line 389, ../scss/_overrides.scss */
 .low_fidelity {
   padding-bottom: 50px;
   padding-top: 20px;
 }
-/* line 392, ../scss/_overrides.scss */
+/* line 393, ../scss/_overrides.scss */
 .low_fidelity img {
   margin-top: 20px;
 }
 
-/* line 397, ../scss/_overrides.scss */
+/* line 398, ../scss/_overrides.scss */
 .final {
   margin-bottom: 80px;
 }
 
-/* line 401, ../scss/_overrides.scss */
+/* line 402, ../scss/_overrides.scss */
 #sketch {
   margin-top: 15px;
   margin-left: -25px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 401, ../scss/_overrides.scss */
+  /* line 402, ../scss/_overrides.scss */
   #sketch {
     margin-left: -15px;
   }
 }
 
-/* line 410, ../scss/_overrides.scss */
+/* line 411, ../scss/_overrides.scss */
 #style {
   margin-top: -15px;
   margin-left: 20px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 410, ../scss/_overrides.scss */
+  /* line 411, ../scss/_overrides.scss */
   #style {
     margin-left: 8px;
   }
 }
 
-/* line 419, ../scss/_overrides.scss */
+/* line 420, ../scss/_overrides.scss */
 #mockup {
   margin-left: 40px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 419, ../scss/_overrides.scss */
+  /* line 420, ../scss/_overrides.scss */
   #mockup {
     margin-left: 20px;
   }
 }
 
-/* line 427, ../scss/_overrides.scss */
+/* line 428, ../scss/_overrides.scss */
 #foot_nav a {
   color: #262626;
   font-size: 14px;
 }
-/* line 431, ../scss/_overrides.scss */
+/* line 432, ../scss/_overrides.scss */
 #foot_nav a:hover {
   color: #00c7ba !important;
 }
 
-/* line 436, ../scss/_overrides.scss */
+/* line 437, ../scss/_overrides.scss */
 #home {
   text-align: center;
 }
 
-/* line 440, ../scss/_overrides.scss */
+/* line 441, ../scss/_overrides.scss */
 #next {
   text-align: right;
 }
 
-/* line 444, ../scss/_overrides.scss */
+/* line 445, ../scss/_overrides.scss */
 ul#foot_nav {
   list-style-type: none;
   text-align: center;
 }
-/* line 449, ../scss/_overrides.scss */
+/* line 450, ../scss/_overrides.scss */
 ul#foot_nav li {
   display: inline-block;
   padding-right: 10px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 449, ../scss/_overrides.scss */
+  /* line 450, ../scss/_overrides.scss */
   ul#foot_nav li {
     font-size: 12px;
   }
 }
-/* line 457, ../scss/_overrides.scss */
+/* line 458, ../scss/_overrides.scss */
 ul#foot_nav li a {
   color: #262626;
 }
-/* line 460, ../scss/_overrides.scss */
+/* line 461, ../scss/_overrides.scss */
 ul#foot_nav li a:hover {
   color: #00c7ba;
 }
 
 /* NomScout */
-/* line 469, ../scss/_overrides.scss */
+/* line 470, ../scss/_overrides.scss */
 #project_2 {
   text-align: center;
 }
 @media (min-width: 1024px) {
-  /* line 469, ../scss/_overrides.scss */
+  /* line 470, ../scss/_overrides.scss */
   #project_2 {
     margin-top: 80px !important;
     margin-bottom: 80px !important;
   }
 }
 
-/* line 478, ../scss/_overrides.scss */
+/* line 479, ../scss/_overrides.scss */
 #project_2 span {
   font-size: 36px;
 }
 
-/* line 482, ../scss/_overrides.scss */
+/* line 483, ../scss/_overrides.scss */
 .row#project_name {
   text-align: center;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 482, ../scss/_overrides.scss */
+  /* line 483, ../scss/_overrides.scss */
   .row#project_name {
     margin-top: 40px;
     margin-bottom: 40px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 482, ../scss/_overrides.scss */
+  /* line 483, ../scss/_overrides.scss */
   .row#project_name {
     margin-top: 30px !important;
   }
 }
 
-/* line 495, ../scss/_overrides.scss */
+/* line 496, ../scss/_overrides.scss */
 #project_2 span {
   font-family: "proxima-nova", "lato", sans-serif;
   letter-spacing: 1px;
 }
 
-/* line 501, ../scss/_overrides.scss */
+/* line 502, ../scss/_overrides.scss */
 #intro {
   margin-top: 15px !important;
 }
 
-/* line 505, ../scss/_overrides.scss */
+/* line 506, ../scss/_overrides.scss */
 #nomscout img {
   display: block;
   margin: auto;
@@ -9719,59 +9720,59 @@ ul#foot_nav li a:hover {
   margin-bottom: 50px;
 }
 
-/* line 513, ../scss/_overrides.scss */
+/* line 514, ../scss/_overrides.scss */
 #guide {
   margin-top: 13px !important;
 }
 
 /* Jott.ly */
-/* line 519, ../scss/_overrides.scss */
+/* line 520, ../scss/_overrides.scss */
 #jott {
   margin-top: 20px;
 }
 
-/* line 523, ../scss/_overrides.scss */
+/* line 524, ../scss/_overrides.scss */
 #splash {
   margin-top: 20px;
 }
 
-/* line 527, ../scss/_overrides.scss */
+/* line 528, ../scss/_overrides.scss */
 #phone {
   margin-top: 15px !important;
 }
 
 /* Salvage Scheme */
-/* line 535, ../scss/_overrides.scss */
+/* line 536, ../scss/_overrides.scss */
 #ss {
   margin-top: 50px;
 }
 
-/* line 539, ../scss/_overrides.scss */
+/* line 540, ../scss/_overrides.scss */
 #block {
   margin-top: 20px;
 }
 
-/* line 543, ../scss/_overrides.scss */
+/* line 544, ../scss/_overrides.scss */
 #vic {
   margin-top: 20px;
 }
 
-/* line 547, ../scss/_overrides.scss */
+/* line 548, ../scss/_overrides.scss */
 #ss_final {
   margin-bottom: 80px;
 }
 
-/* line 551, ../scss/_overrides.scss */
+/* line 552, ../scss/_overrides.scss */
 #ss_final a {
   color: #073057;
   font-size: 14px;
 }
-/* line 555, ../scss/_overrides.scss */
+/* line 556, ../scss/_overrides.scss */
 #ss_final a:hover {
   color: #00c7ba !important;
 }
 
-/* line 560, ../scss/_overrides.scss */
+/* line 561, ../scss/_overrides.scss */
 #dispatch {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9781,13 +9782,13 @@ ul#foot_nav li a:hover {
 }
 
 /* About */
-/* line 570, ../scss/_overrides.scss */
+/* line 571, ../scss/_overrides.scss */
 #about {
   margin-top: 80px;
   margin-bottom: 40px;
   text-align: center;
 }
-/* line 575, ../scss/_overrides.scss */
+/* line 576, ../scss/_overrides.scss */
 #about span {
   font-weight: 500;
   font-family: "proxima-nova", "lato", sans-serif;
@@ -9795,95 +9796,95 @@ ul#foot_nav li a:hover {
   text-align: left;
 }
 
-/* line 583, ../scss/_overrides.scss */
+/* line 584, ../scss/_overrides.scss */
 #me {
   margin-top: 20px;
 }
 @media (min-width: 1024px) {
-  /* line 583, ../scss/_overrides.scss */
+  /* line 584, ../scss/_overrides.scss */
   #me {
     margin-top: 50px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 583, ../scss/_overrides.scss */
+  /* line 584, ../scss/_overrides.scss */
   #me {
     margin-top: 40px;
   }
 }
 
-/* line 595, ../scss/_overrides.scss */
+/* line 596, ../scss/_overrides.scss */
 h6#copy {
   padding-top: 30px;
 }
 
-/* line 599, ../scss/_overrides.scss */
+/* line 600, ../scss/_overrides.scss */
 ul#social_about {
   list-style-type: none;
   margin-top: -35px;
   margin-left: -5px;
   text-align: center;
 }
-/* line 605, ../scss/_overrides.scss */
+/* line 606, ../scss/_overrides.scss */
 ul#social_about li {
   display: inline-block;
   padding-right: 2px;
 }
 
-/* line 611, ../scss/_overrides.scss */
+/* line 612, ../scss/_overrides.scss */
 #final_about {
   margin-bottom: 80px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 611, ../scss/_overrides.scss */
+  /* line 612, ../scss/_overrides.scss */
   #final_about {
     margin-bottom: 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 611, ../scss/_overrides.scss */
+  /* line 612, ../scss/_overrides.scss */
   #final_about {
     margin-bottom: 10px;
   }
 }
 
 /* Contact Page */
-/* line 625, ../scss/_overrides.scss */
+/* line 626, ../scss/_overrides.scss */
 textarea {
   height: 143px;
 }
 
-/* line 629, ../scss/_overrides.scss */
+/* line 630, ../scss/_overrides.scss */
 #field_short {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-/* line 634, ../scss/_overrides.scss */
+/* line 635, ../scss/_overrides.scss */
 #field_long {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 634, ../scss/_overrides.scss */
+  /* line 635, ../scss/_overrides.scss */
   #field_long {
     margin-top: -30px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
-  /* line 634, ../scss/_overrides.scss */
+  /* line 635, ../scss/_overrides.scss */
   #field_long {
     margin-top: -20px;
   }
 }
 
-/* line 647, ../scss/_overrides.scss */
+/* line 648, ../scss/_overrides.scss */
 button {
   margin-bottom: 50px;
   text-align: center;
 }
 
-/* line 652, ../scss/_overrides.scss */
+/* line 653, ../scss/_overrides.scss */
 button.button.small {
   background-color: #073057;
   border-radius: 5px;
@@ -9891,23 +9892,23 @@ button.button.small {
   margin-bottom: 50px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 652, ../scss/_overrides.scss */
+  /* line 653, ../scss/_overrides.scss */
   button.button.small {
     margin-left: -30px;
   }
 }
 
-/* line 663, ../scss/_overrides.scss */
+/* line 664, ../scss/_overrides.scss */
 input {
   margin-bottom: 30px;
 }
 
-/* line 667, ../scss/_overrides.scss */
+/* line 668, ../scss/_overrides.scss */
 #inquiry {
   background-color: #ff5950;
 }
 
-/* line 671, ../scss/_overrides.scss */
+/* line 672, ../scss/_overrides.scss */
 #talk {
   text-align: center;
   margin-top: 10px;
