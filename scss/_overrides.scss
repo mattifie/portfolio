@@ -283,7 +283,11 @@ ul.right li a {
 
 li.name h3 a {
   color:$text-color !important;
-  font-size: 22px
+  font-size: 22px;
+
+  @include mobile {
+  font-size: 18px;
+  }
 }
 
 /* Top Bar */
@@ -473,6 +477,15 @@ ul#foot_nav
   @include desktop {
   margin-top: 80px !important;
   margin-bottom: 80px !important;
+
+  @include tablet {
+  margin-top: 40px;
+  }
+
+  @include mobile {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  }
 }
 }
 
