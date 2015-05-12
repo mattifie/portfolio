@@ -197,7 +197,7 @@ div.large-4.columns:hover span.text-content {
   opacity: 1;
 
   @include mobile {
-  opacity: 0;
+  opacity: 1;
   }
 }
 
@@ -234,6 +234,10 @@ ul#social
   #footer h5 {
       padding-top: 20px;
       text-align: center;
+
+      @include mobile {
+      font-size: 18px;
+      }
       }
 
   #footer a {
