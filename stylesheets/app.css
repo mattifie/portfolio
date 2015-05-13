@@ -9696,7 +9696,7 @@ ul#social li {
 
 /* line 256, ../scss/_overrides.scss */
 #index {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 @media (min-width: 1024px) {
   /* line 256, ../scss/_overrides.scss */
